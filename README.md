@@ -13,6 +13,7 @@ flowchart LR
   C --> D["Per-layer Metrics<br/>(ranks, earliest-layer <= k)"]
   D --> E["CSV Exports<br/>out/data/*.csv"]
   E --> F["Plots<br/>out/plots/*.png"]
+```
 
 ## **Environment Setup**
 

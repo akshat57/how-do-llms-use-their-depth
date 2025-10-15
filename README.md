@@ -7,7 +7,7 @@ Minimal instructions to reproduce the paper’s figures from code. Workflow: **t
 Results in brief: Large language models follow a “guess-then-refine” pattern. Early layers make quick, common-token guesses; later layers use context and change about 60–80% of those early picks. Function words (the/at/of) become correct at shallow layers, while content words (nouns, verbs, adjectives) need more depth. For multi-token facts, the first token is the hardest and typically needs the most depth; later tokens appear earlier. In constrained-choice tasks, models gather a shortlist of good options early, then make the final choice near the end. Easier predictions settle sooner; harder ones resolve deeper in the network. This repo reproduces these results end-to-end: it writes per-layer CSVs, plots frequency buckets and decision flips, and produces “earliest-layer” curves for parts-of-speech and multi-token facts.
 
 ---
-## System Figure
+## Analysis & Figure Generation Pipeline
 ```mermaid
 flowchart LR
   A["Prompts & Datasets<br/>(POS / Facts / Downstream)"] --> B["Model Forward Pass"]

@@ -12,7 +12,7 @@ flowchart LR
   B --> C["TunedLens / LogitLens<br/>per-layer logits"]
   C --> D["Per-layer Metrics<br/>(ranks, earliest-layer <= k)"]
   D --> E["CSV Exports<br/>out/data/*.csv"]
-  E --> F["Plots<br/>out/plots/*.png"]
+  E --> F["Plots<br/>out/plots/*.png"]```
 
 
 

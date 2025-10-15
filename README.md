@@ -3,6 +3,8 @@
 Minimal instructions to reproduce the paper’s figures from code. Workflow: **trace per-layer logits → write CSVs → plot** (POS, multi-token facts, downstream options; plus frequency buckets and decision flips).
 
 ---
+## Paper Results
+---
 
 ## System Figure
 ```mermaid

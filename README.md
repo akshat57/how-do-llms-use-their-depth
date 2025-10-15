@@ -130,19 +130,6 @@ jupyter lab
 
 ---
 
-## Suggested .gitignore
-~~~gitignore
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-out/
-logs/
-results/
-tokenizer_analysis/
-~~~
-
----
-
 
 ## Citation
 *How Do LLMs Use Their Depth?* — please cite if you use this code or figures.

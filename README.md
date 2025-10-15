@@ -5,7 +5,6 @@ Lightweight code to reproduce analyses/plots for our paper on layer-wise predict
 ---
 
 ## System Figure
-
 ```mermaid
 flowchart LR
   A["Prompts & Datasets<br/>(POS / Facts / Downstream)"] --> B["Model Forward Pass"]

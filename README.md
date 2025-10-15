@@ -143,8 +143,6 @@ tokenizer_analysis/
 
 ---
 
-## License
-Add your license (e.g., MIT).
 
 ## Citation
 *How Do LLMs Use Their Depth?* — please cite if you use this code or figures.

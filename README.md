@@ -20,9 +20,6 @@ flowchart LR
 conda create -n depthstudy python=3.10 -y
 conda activate depthstudy
 pip install -U torch transformers tuned-lens pandas numpy matplotlib seaborn tqdm
-
-# optional (POS):
-pip install spacy && python -m spacy download en_core_web_sm
 ```
 
 

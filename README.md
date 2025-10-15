@@ -14,20 +14,4 @@ flowchart LR
   D --> E[CSV Exports\nout/data/*.csv]
   E --> F[Plots\nout/plots/*.png]
 
-scripts/
-  analyze_knowledge_layers_pos.py            # POS study → per-layer ranks CSVs
-  analyze_knowledge_layers_facts.py          # MQuAKE facts (multi-token) → CSV
-  downstream_task_options_analysis.py        # Option-constrained tasks → CSVs
-  decision_flip_intermediate_and_final_layer_comparison.py   # flip analysis
-  top_ranked_token_at_each_layer.py          # frequency-bucket stacks
-  top_ranked_plot.py                         # plotting utils
-plot_facts2.py                               # single-figure: earliest layer vs rank (facts)
-notebooks/
-  graph.ipynb                                # POS + general plots (incl. KDE)
-  graph_fact.ipynb                           # fact-specific plots
-out/
-  data/      # generated inputs to plotting (CSVs)
-  plots/     # final figures (PNGs)
-  plot_data/ # optional intermediates
-  Layer_vs_Rank/ # alt figures
 

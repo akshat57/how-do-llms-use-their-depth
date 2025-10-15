@@ -1,4 +1,1 @@
-Fig 2: top_ranked_token_at_each_layer.py
-Fig 3: decision_flip_intermediate_and_final_layer_comparison.py
-Fig 4: analyze_knowledge_layers_facts.py, analyze_knowledge_layers_pos.py
-Fig 5: downstream_task_options_analysis.py
+# how-do-llms-use-their-depth

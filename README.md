@@ -8,10 +8,10 @@ Lightweight code to reproduce analyses/plots for our paper on **layer-wise predi
 
 ```mermaid
 flowchart LR
-  A[Prompts & Datasets\n(POS / Facts / Downstream)] --> B[Model Forward Pass]
-  B --> C[TunedLens / LogitLens\nper-layer logits]
-  C --> D[Per-layer Metrics\n(ranks, earliest-layer ≤k)]
-  D --> E[CSV Exports\nout/data/*.csv]
-  E --> F[Plots\nout/plots/*.png]
+  A["Prompts & Datasets<br/>(POS / Facts / Downstream)"] --> B["Model Forward Pass"]
+  B --> C["TunedLens / LogitLens<br/>per-layer logits"]
+  C --> D["Per-layer Metrics<br/>(ranks, earliest-layer <= k)"]
+  D --> E["CSV Exports<br/>out/data/*.csv"]
+  E --> F["Plots<br/>out/plots/*.png"]
 
 

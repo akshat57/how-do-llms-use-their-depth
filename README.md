@@ -64,9 +64,9 @@ python downstream_task_options_analysis.py
 ## Make Plots
 ~~~bash
 # Facts — "earliest layer vs rank" (uses the facts CSV above)
-python -u plot_facts1.py
+python -u plot_facts2.py
 # Output (example): out/plots/gpt2-xl_mquake_fact_logit.png
-# If your file uses a different suffix/path, edit postfix/CSV_PATH inside plot_facts1.py
+# If your file uses a different suffix/path, edit postfix/CSV_PATH inside plot_facts2.py
 ~~~
 
 ~~~bash
@@ -98,7 +98,7 @@ jupyter lab
 - **Fig. 3 — Decision flips with depth:** `decision_flip_intermediate_and_final_layer_comparison.py` (renders via `top_ranked_plot.py`).  
 - **Fig. 4 — Earliest crossing thresholds (POS & Facts):**  
   - Generate CSVs with `analyze_knowledge_layers_pos.py` and `analyze_knowledge_layers_facts.py`.  
-  - Plot **facts** with `plot_facts1.py`; plot **POS/general** with `notebooks/graph.ipynb`.
+  - Plot **facts** with `plot_facts2.py`; plot **POS/general** with `notebooks/graph.ipynb`.
 
 > Plotting can run on CPU; CSV generation is faster with a GPU.
 
@@ -106,7 +106,7 @@ jupyter lab
 
 ## Troubleshooting
 ~~~bash
-# CSV not found → run the matching analysis script first OR edit CSV_PATH/postfix in plot_facts1.py
+# CSV not found → run the matching analysis script first OR edit CSV_PATH/postfix in plot_facts2.py
 ls -1 out/data/fact_gpt2-xl_REASONING_*.csv
 
 # "Cannot save file into a non-existent directory" → create folders

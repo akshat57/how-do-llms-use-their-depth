@@ -5,7 +5,9 @@ Minimal instructions to reproduce the paper’s figures from code. Workflow: **t
 ---
 ## Paper Results
 ---
+Large language models use depth in a “guess-then-refine” pattern. Early layers propose high-frequency, generic continuations; deeper layers inject context, suppress spurious options, and overturn roughly 60–80% of those initial guesses. This progression is not uniform: function words (e.g., determiners and prepositions) stabilize at shallow layers, while content words (nouns, verbs, adjectives) require substantially more depth. In multi-token factual answers, the first token is the bottleneck—it demands the greatest depth to anchor the span, after which subsequent tokens appear earlier and more confidently. On constrained-choice tasks, models assemble a shortlist of plausible answers early, then defer the final selection to late layers that integrate broader evidence. Overall, easier predictions resolve sooner; harder ones push computation deeper, revealing a complexity-aware allocation of depth. The code in this repository reproduces these findings end-to-end—generating per-layer CSVs, plotting frequency buckets and decision flips, and producing the “earliest-layer” curves for parts-of-speech and multi-token facts and figures.
 
+---
 
 ## System Figure
 ```mermaid

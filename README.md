@@ -123,21 +123,6 @@ s = df.groupby("prompt index")["layer"].min().dropna()
 if s.size >= 2 and s.nunique() >= 2:
     s.plot.kde(...)
 ~~~
-
----
-
-## Script Index (what each file does)
-```text
-analyze_knowledge_layers_pos.py                  # POS analysis → per-layer ranks CSVs
-analyze_knowledge_layers_facts.py                # Multi-token facts (MQuAKE) → CSV
-downstream_task_options_analysis.py              # Option-constrained tasks → CSVs
-decision_flip_intermediate_and_final_layer_comparison.py  # flip analysis (intermediate->final)
-top_ranked_token_at_each_layer.py                # frequency-bucket stacks (Top-10/100/1000/Rest)
-top_ranked_plot.py                               # plotting utilities for stacks & flips
-plot_facts1.py                                   # single figure: earliest layer vs rank (facts)
-notebooks/graph.ipynb                            # POS & general plots (incl. KDE)
-```
-
 ---
 
 ## Citation

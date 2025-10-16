@@ -43,7 +43,7 @@ pip install -U plotly kaleido
 pip install spacy && python -m spacy download en_core_web_sm
 ~~~
 
-![alt text](diagram.png)
+![alt text](Diagram.png)
 
 ---
 

@@ -43,6 +43,8 @@ pip install -U plotly kaleido
 pip install spacy && python -m spacy download en_core_web_sm
 ~~~
 
+![alt text](Figures__Copy_.3-1.png)
+
 ---
 
 ## Create Output Folders

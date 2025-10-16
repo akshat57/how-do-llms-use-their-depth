@@ -1,6 +1,6 @@
 # How Do LLMs Use Their Depth? — Code to Generate Figures
 
-Minimal instructions to reproduce the paper’s figures from code. Workflow: **trace per-layer logits → write CSVs → plot** (POS, multi-token facts, downstream options; plus frequency buckets and decision flips).
+Minimal instructions to reproduce the paper’s figures from code. Workflow: trace per-layer logits → write CSVs → plot (POS, multi-token facts, downstream options; plus frequency buckets and decision flips). Note: environments vary—on some clusters you may need to install extra Python packages or pin versions.
 
 ---
 ## Paper Results

@@ -9,7 +9,7 @@ Large language models follow a “guess-then-refine” pattern. Early layers mak
 ---
 
 <p align="center">
-  <img src="diagram_35pct_hidpi.png" width="750" height="750" />
+  <img src="diagram.jpeg" width="750" height="750" />
 </p>
 
 ---

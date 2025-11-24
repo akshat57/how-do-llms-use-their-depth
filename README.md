@@ -97,7 +97,7 @@ python decision_flip_intermediate_and_final_layer_comparison.py
 # Launch Jupyter (GPU not required for plotting)
 jupyter lab
 # Open and run:
-# - notebooks/graph.ipynb   (produces POS & general figures; includes KDE and earliest-layer views)
+# - graph.ipynb   (produces POS & general figures; includes KDE and earliest-layer views)
 ~~~
 
 ---
@@ -107,7 +107,7 @@ jupyter lab
 - **Fig. 3 — Decision flips with depth:** `decision_flip_intermediate_and_final_layer_comparison.py` (renders via `top_ranked_plot.py`).  
 - **Fig. 4 — Earliest crossing thresholds (POS & Facts):**  
   - Generate CSVs with `analyze_knowledge_layers_pos.py` and `analyze_knowledge_layers_facts.py`.  
-  - Plot **facts** with `plot_facts2.py`; plot **POS/general** with `notebooks/graph.ipynb`.
+  - Plot **facts** with `plot_facts2.py`; plot **POS/general** with `graph.ipynb`.
 
 > Plotting can run on CPU; CSV generation is faster with a GPU.
 

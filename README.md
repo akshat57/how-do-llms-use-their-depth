@@ -135,7 +135,13 @@ if s.size >= 2 and s.nunique() >= 2:
 ---
 
 ## Citation
-*How Do LLMs Use Their Depth?* — please cite if you use this code or figures.
+@article{gupta2025how,
+  title        = {How Do LLMs Use Their Depth?},
+  author       = {Gupta, Akshat and Yeung, Jay and Anumanchipalli, Gopala and Ivanova, Anna},
+  journal      = {arXiv preprint arXiv:2510.18871},
+  year         = {2025},
+  url          = {https://arxiv.org/abs/2510.18871}
+}
 
 
 

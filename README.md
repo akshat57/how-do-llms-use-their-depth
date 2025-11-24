@@ -146,10 +146,3 @@ If you use this code or results in your work, please cite:
   year         = {2025},
   url          = {https://arxiv.org/abs/2510.18871}
 }
-
-
-
-
-
-
-

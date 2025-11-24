@@ -135,6 +135,10 @@ if s.size >= 2 and s.nunique() >= 2:
 ---
 
 ## Citation
+
+If you use this code or results in your work, please cite:
+
+```bibtex
 @article{gupta2025how,
   title        = {How Do LLMs Use Their Depth?},
   author       = {Gupta, Akshat and Yeung, Jay and Anumanchipalli, Gopala and Ivanova, Anna},
